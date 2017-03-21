@@ -1,0 +1,38 @@
+{
+  "name": "engSoft-app-Employee",
+  "version": "1.0",
+  "description": "Demo de aplicação utilizando REST e Sprint Boot",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thaianahbc/engSoft-SpringApp.git"
+  },
+  "keywords": [
+    "rest",
+    "hateoas",
+    "spring",
+    "data",
+    "react"
+  ],
+  "author": "Thaiana H.B.C",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/thaianahbc/engSoft-SpringApp/issues"
+  },
+  "homepage": "https://github.com/thaianahbc/engSoft-SpringApp",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "rest": "^1.3.1",
+    "webpack": "^1.12.2"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0"
+  }
+}

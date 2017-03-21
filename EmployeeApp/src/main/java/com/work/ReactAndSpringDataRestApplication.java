@@ -3,10 +3,13 @@ package com.work;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author Thaiana H.B.C
+ */
 @SpringBootApplication
-public class EmployeeAppApplication {
+public class ReactAndSpringDataRestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmployeeAppApplication.class, args);
+		SpringApplication.run(ReactAndSpringDataRestApplication.class, args);
 	}
 }

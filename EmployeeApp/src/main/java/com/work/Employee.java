@@ -7,7 +7,6 @@ import javax.persistence.Id;
 /**
  * @author Thaiana H.B.C
  */
-
 @Entity
 public class Employee {
 
@@ -15,7 +14,7 @@ public class Employee {
 	private String firstName;
 	private String lastName;
 	private String description;
-	
+
 	public Long getId() {
 		return id;
 	}
@@ -39,7 +38,7 @@ public class Employee {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	
+
 	public String getDescription() {
 		return description;
 	}
@@ -48,13 +47,12 @@ public class Employee {
 		this.description = description;
 	}
 
+	
 	private Employee() {}
 
 	public Employee(String firstName, String lastName, String description) {
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.setDescription(description);
+		this.description = description;
 	}
-
-
 }
