@@ -117,27 +117,31 @@
 					'table',
 					null,
 					React.createElement(
-						'tbody',
+						'thead',
 						null,
 						React.createElement(
 							'tr',
-							null,
+							{ 'class': 'active' },
 							React.createElement(
 								'th',
 								null,
-								'First Name'
+								'Nome'
 							),
 							React.createElement(
 								'th',
 								null,
-								'Last Name'
+								'Sobrenome'
 							),
 							React.createElement(
 								'th',
 								null,
-								'Description'
+								'Cargo'
 							)
-						),
+						)
+					),
+					React.createElement(
+						'tbody',
+						null,
 						employees
 					)
 				);
