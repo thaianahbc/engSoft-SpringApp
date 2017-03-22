@@ -5,15 +5,21 @@
 
 = Trabalho Final de Arquitetura Web - Eng.Soft
 
-Aplicação construída utilizando React.js e Spring Data REST
+Componentes do Grupo:
+	* Felipe Vilaca
+	* Marcus Ricardo
+	* Thaiana Hofman
 
-Para rodar este aplicativo é preciso ter instalado:
-	Spring Tool Suite
-	Java 8
-	Maven
+Aplicação construída utilizando React.js e Spring Data REST. Baseado no tutorial disponiblizado em https://spring.io/guides/tutorials/react-and-spring-data-rest/
+
+O aplicativo contempla as ações básicas para manipular um Empregado: Adicionar, Editar e Excluir. 
+
+Dependências para o projeto executar corretamente:
+	* Spring Tool Suite
+	* Java 8
+	* Maven
+
+As demais dependências javascripts são baixadas de forma automática através do webpack que está configurado no script de inicialização mvmw e pom.xml
+
+Após carregar o projeto no STS (Spring Tool Suite) basta rodar como um Spring Boot App, ou pela linha de comando executar o seguinte código: ./mvnw spring-boot:run
 	
-As demais dependências (node) são baixadas de forma automática através do webpack que está configurado no script de inicialização mvmw e pom.xml
-
-Este aplicativo foi feito baseado no tutorial disponiblizado em https://spring.io/guides/tutorials/react-and-spring-data-rest/
-
-O aplicativo contempla a adição, edição e deleção de um Empregado. Os dados não estão sendo persistidos em um banco de dados atualmente. 
