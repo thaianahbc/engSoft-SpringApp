@@ -1,23 +1,19 @@
----
-tags: [rest,hateoas,data,react,security]
-projects: [spring-data-rest,spring-data-jpa,spring-hateoas,spring-security,spring-boot,]
----
 :toc: left
 :icons: font
 :source-highlighter: prettify
 :image-width: 500
 
-= React.js and Spring Data REST
+= Trabalho Final de Arquitetura Web - Eng.Soft
 
-This tutorial shows a collection of apps that use Spring Data REST and its powerful backend functionality combined with React's sophisticated features to build an easy-to-grok UI.
+Aplicação construída utilizando React.js e Spring Data REST
 
-* https://www.youtube.com/watch?v=TgCr7v9tdKM[Spring Data REST] provides a fast way to build hypermedia-powered repositories.
-* http://facebook.github.io/react/index.html[React] is Facebook's solution to efficient, fast, and easy-to-use views in the land of JavaScript.
+Para rodar este aplicativo é preciso ter instalado:
+	Spring Tool Suite
+	Java 8
+	Maven
+	
+As demais dependências (node) são baixadas de forma automática através do webpack que está configurado no script de inicialização mvmw e pom.xml
 
-include::basic/README.adoc[leveloffset=+1]
-include::hypermedia/README.adoc[leveloffset=+1]
-include::conditional/README.adoc[leveloffset=+1]
-include::events/README.adoc[leveloffset=+1]
-include::security/README.adoc[leveloffset=+1]
+Este aplicativo foi feito baseado no tutorial disponiblizado em https://spring.io/guides/tutorials/react-and-spring-data-rest/
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
+O aplicativo contempla a adição, edição e deleção de um Empregado. Os dados não estão sendo persistidos em um banco de dados atualmente. 
