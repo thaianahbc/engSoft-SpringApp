@@ -136,6 +136,11 @@
 								'th',
 								null,
 								'Cargo'
+							),
+							React.createElement(
+								'th',
+								null,
+								'Sal\xE1rio'
 							)
 						)
 					),
@@ -184,6 +189,11 @@
 						'td',
 						null,
 						this.props.employee.description
+					),
+					React.createElement(
+						'td',
+						null,
+						this.props.employee.salary
 					)
 				);
 			}

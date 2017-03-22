@@ -14,6 +14,7 @@ public class Employee {
 	private String firstName;
 	private String lastName;
 	private String description;
+	private Double salary;
 
 	public Long getId() {
 		return id;
@@ -47,12 +48,22 @@ public class Employee {
 		this.description = description;
 	}
 
+	public Double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(Double salary) {
+		this.salary = salary;
+	}
 	
 	private Employee() {}
 
-	public Employee(String firstName, String lastName, String description) {
+	public Employee(String firstName, String lastName, String description, Double salary) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.description = description;
+		this.salary = salary;
 	}
+
+
 }
