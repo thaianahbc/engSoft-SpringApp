@@ -3,6 +3,9 @@ package com.work;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Version;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
  * @author Thaiana H.B.C
@@ -15,6 +18,8 @@ public class Employee {
 	private String lastName;
 	private String description;
 	private Double salary;
+	
+	private @Version @JsonIgnore Long version;
 
 	public Long getId() {
 		return id;
